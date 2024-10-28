@@ -1,0 +1,428 @@
+{
+    "Shipments": {
+      "TotalNumberOfRecords": "20",
+      "Shipment": [
+        {
+          "AssignedToUserId": "jdoe",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "12-10-2024",
+          "OrderNo": "SFS2000001",
+          "ScacAndService": "FedExExpress",
+          "ShipNode": "Mtrx_Store_2",
+          "ShipmentKey": "SFS2000001_SHPKEY",
+          "ShipmentNo": "SFS2000001SHPNO",
+          "Status": "Shipped",
+          "BillToAddress": {
+            "DayPhone": "987654321",
+            "EMailID": "jdoe@org.com",
+            "FirstName": "John",
+            "LastName": "Doe",
+            "PersonInfoKey": "3000001"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "3"
+          }
+        },
+        {
+          "AssignedToUserId": "akumar",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "14-10-2024",
+          "OrderNo": "PICK2000002",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_3",
+          "ShipmentKey": "PICK2000002_SHPKEY",
+          "ShipmentNo": "PICK2000002SHPNO",
+          "Status": "Ready for Pickup",
+          "BillToAddress": {
+            "DayPhone": "123456780",
+            "EMailID": "akumar@org.com",
+            "FirstName": "Anil",
+            "LastName": "Kumar",
+            "PersonInfoKey": "4000002"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "5"
+          }
+        },
+        {
+          "AssignedToUserId": "mroberts",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "18-10-2024",
+          "OrderNo": "SFS2000003",
+          "ScacAndService": "DHLExpress",
+          "ShipNode": "Mtrx_Store_1",
+          "ShipmentKey": "SFS2000003_SHPKEY",
+          "ShipmentNo": "SFS2000003SHPNO",
+          "Status": "In Transit",
+          "BillToAddress": {
+            "DayPhone": "111222333",
+            "EMailID": "mroberts@org.com",
+            "FirstName": "Mary",
+            "LastName": "Roberts",
+            "PersonInfoKey": "5000003"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "7"
+          }
+        },
+        {
+          "AssignedToUserId": "ssmith",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "19-10-2024",
+          "OrderNo": "PICK2000004",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_2",
+          "ShipmentKey": "PICK2000004_SHPKEY",
+          "ShipmentNo": "PICK2000004SHPNO",
+          "Status": "Ready for Backroom Pick",
+          "BillToAddress": {
+            "DayPhone": "555666777",
+            "EMailID": "ssmith@org.com",
+            "FirstName": "Susan",
+            "LastName": "Smith",
+            "PersonInfoKey": "6000004"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "4"
+          }
+        },
+        {
+          "AssignedToUserId": "ddavis",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "20-10-2024",
+          "OrderNo": "SFS2000005",
+          "ScacAndService": "UPSNextDay",
+          "ShipNode": "Mtrx_Store_4",
+          "ShipmentKey": "SFS2000005_SHPKEY",
+          "ShipmentNo": "SFS2000005SHPNO",
+          "Status": "Cancelled",
+          "BillToAddress": {
+            "DayPhone": "999888777",
+            "EMailID": "ddavis@org.com",
+            "FirstName": "David",
+            "LastName": "Davis",
+            "PersonInfoKey": "7000005"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "2"
+          }
+        },
+        {
+          "AssignedToUserId": "tadams",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "22-10-2024",
+          "OrderNo": "PICK2000006",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_3",
+          "ShipmentKey": "PICK2000006_SHPKEY",
+          "ShipmentNo": "PICK2000006SHPNO",
+          "Status": "Ready for Pickup",
+          "BillToAddress": {
+            "DayPhone": "888555111",
+            "EMailID": "tadams@org.com",
+            "FirstName": "Tom",
+            "LastName": "Adams",
+            "PersonInfoKey": "8000006"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "3"
+          }
+        },
+        {
+          "AssignedToUserId": "bgomez",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "23-10-2024",
+          "OrderNo": "SFS2000007",
+          "ScacAndService": "USPSPriority",
+          "ShipNode": "Mtrx_Store_1",
+          "ShipmentKey": "SFS2000007_SHPKEY",
+          "ShipmentNo": "SFS2000007SHPNO",
+          "Status": "Shipped",
+          "BillToAddress": {
+            "DayPhone": "222444666",
+            "EMailID": "bgomez@org.com",
+            "FirstName": "Bella",
+            "LastName": "Gomez",
+            "PersonInfoKey": "9000007"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "6"
+          }
+        },
+        {
+          "AssignedToUserId": "hford",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "24-10-2024",
+          "OrderNo": "PICK2000008",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_2",
+          "ShipmentKey": "PICK2000008_SHPKEY",
+          "ShipmentNo": "PICK2000008SHPNO",
+          "Status": "Ready for Backroom Pick",
+          "BillToAddress": {
+            "DayPhone": "333777555",
+            "EMailID": "hford@org.com",
+            "FirstName": "Harry",
+            "LastName": "Ford",
+            "PersonInfoKey": "10000008"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "5"
+          }
+        },
+        {
+          "AssignedToUserId": "lwilson",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "25-10-2024",
+          "OrderNo": "SFS2000009",
+          "ScacAndService": "DHLGround",
+          "ShipNode": "Mtrx_Store_3",
+          "ShipmentKey": "SFS2000009_SHPKEY",
+          "ShipmentNo": "SFS2000009SHPNO",
+          "Status": "In Transit",
+          "BillToAddress": {
+            "DayPhone": "123555678",
+            "EMailID": "lwilson@org.com",
+            "FirstName": "Laura",
+            "LastName": "Wilson",
+            "PersonInfoKey": "11000009"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "4"
+          }
+        },
+        {
+          "AssignedToUserId": "jmartin",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "26-10-2024",
+          "OrderNo": "PICK2000010",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_4",
+          "ShipmentKey": "PICK2000010_SHPKEY",
+          "ShipmentNo": "PICK2000010SHPNO",
+          "Status": "Ready for Pickup",
+          "BillToAddress": {
+            "DayPhone": "999444222",
+            "EMailID": "jmartin@org.com",
+            "FirstName": "James",
+            "LastName": "Martin",
+            "PersonInfoKey": "12000010"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "2"
+          }
+        },
+        {
+          "AssignedToUserId": "kthomas",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "27-10-2024",
+          "OrderNo": "SFS2000011",
+          "ScacAndService": "FedExGround",
+          "ShipNode": "Mtrx_Store_1",
+          "ShipmentKey": "SFS2000011_SHPKEY",
+          "ShipmentNo": "SFS2000011SHPNO",
+          "Status": "Shipped",
+          "BillToAddress": {
+            "DayPhone": "111333555",
+            "EMailID": "kthomas@org.com",
+            "FirstName": "Karen",
+            "LastName": "Thomas",
+            "PersonInfoKey": "13000011"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "7"
+          }
+        },
+        {
+          "AssignedToUserId": "jlee",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "28-10-2024",
+          "OrderNo": "PICK2000012",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_2",
+          "ShipmentKey": "PICK2000012_SHPKEY",
+          "ShipmentNo": "PICK2000012SHPNO",
+          "Status": "Ready for Backroom Pick",
+          "BillToAddress": {
+            "DayPhone": "888555333",
+            "EMailID": "jlee@org.com",
+            "FirstName": "John",
+            "LastName": "Lee",
+            "PersonInfoKey": "14000012"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "3"
+          }
+        },
+        {
+          "AssignedToUserId": "mfoster",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "29-10-2024",
+          "OrderNo": "SFS2000013",
+          "ScacAndService": "USPSGround",
+          "ShipNode": "Mtrx_Store_3",
+          "ShipmentKey": "SFS2000013_SHPKEY",
+          "ShipmentNo": "SFS2000013SHPNO",
+          "Status": "In Transit",
+          "BillToAddress": {
+            "DayPhone": "444222666",
+            "EMailID": "mfoster@org.com",
+            "FirstName": "Megan",
+            "LastName": "Foster",
+            "PersonInfoKey": "15000013"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "6"
+          }
+        },
+        {
+          "AssignedToUserId": "wking",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "30-10-2024",
+          "OrderNo": "PICK2000014",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_1",
+          "ShipmentKey": "PICK2000014_SHPKEY",
+          "ShipmentNo": "PICK2000014SHPNO",
+          "Status": "Ready for Pickup",
+          "BillToAddress": {
+            "DayPhone": "555888111",
+            "EMailID": "wking@org.com",
+            "FirstName": "William",
+            "LastName": "King",
+            "PersonInfoKey": "16000014"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "4"
+          }
+        },
+        {
+          "AssignedToUserId": "vcarter",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "01-11-2024",
+          "OrderNo": "SFS2000015",
+          "ScacAndService": "UPS2ndDay",
+          "ShipNode": "Mtrx_Store_4",
+          "ShipmentKey": "SFS2000015_SHPKEY",
+          "ShipmentNo": "SFS2000015SHPNO",
+          "Status": "Shipped",
+          "BillToAddress": {
+            "DayPhone": "999555111",
+            "EMailID": "vcarter@org.com",
+            "FirstName": "Victoria",
+            "LastName": "Carter",
+            "PersonInfoKey": "17000015"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "5"
+          }
+        },
+        {
+          "AssignedToUserId": "rturner",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "02-11-2024",
+          "OrderNo": "PICK2000016",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_2",
+          "ShipmentKey": "PICK2000016_SHPKEY",
+          "ShipmentNo": "PICK2000016SHPNO",
+          "Status": "Ready for Backroom Pick",
+          "BillToAddress": {
+            "DayPhone": "777444222",
+            "EMailID": "rturner@org.com",
+            "FirstName": "Robert",
+            "LastName": "Turner",
+            "PersonInfoKey": "18000016"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "2"
+          }
+        },
+        {
+          "AssignedToUserId": "jperez",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "03-11-2024",
+          "OrderNo": "SFS2000017",
+          "ScacAndService": "FedExStandard",
+          "ShipNode": "Mtrx_Store_3",
+          "ShipmentKey": "SFS2000017_SHPKEY",
+          "ShipmentNo": "SFS2000017SHPNO",
+          "Status": "Cancelled",
+          "BillToAddress": {
+            "DayPhone": "888222111",
+            "EMailID": "jperez@org.com",
+            "FirstName": "Jose",
+            "LastName": "Perez",
+            "PersonInfoKey": "19000017"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "6"
+          }
+        },
+        {
+          "AssignedToUserId": "abrown",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "04-11-2024",
+          "OrderNo": "PICK2000018",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_4",
+          "ShipmentKey": "PICK2000018_SHPKEY",
+          "ShipmentNo": "PICK2000018SHPNO",
+          "Status": "Ready for Pickup",
+          "BillToAddress": {
+            "DayPhone": "222999555",
+            "EMailID": "abrown@org.com",
+            "FirstName": "Alice",
+            "LastName": "Brown",
+            "PersonInfoKey": "20000018"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "3"
+          }
+        },
+        {
+          "AssignedToUserId": "jclark",
+          "DeliveryMethod": "SHP",
+          "ExpectedShipmentDate": "05-11-2024",
+          "OrderNo": "SFS2000019",
+          "ScacAndService": "UPS3rdDay",
+          "ShipNode": "Mtrx_Store_2",
+          "ShipmentKey": "SFS2000019_SHPKEY",
+          "ShipmentNo": "SFS2000019SHPNO",
+          "Status": "In Transit",
+          "BillToAddress": {
+            "DayPhone": "777555999",
+            "EMailID": "jclark@org.com",
+            "FirstName": "Julia",
+            "LastName": "Clark",
+            "PersonInfoKey": "21000019"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "5"
+          }
+        },
+        {
+          "AssignedToUserId": "wpatterson",
+          "DeliveryMethod": "PICK",
+          "ExpectedShipmentDate": "06-11-2024",
+          "OrderNo": "PICK2000020",
+          "ScacAndService": "",
+          "ShipNode": "Mtrx_Store_1",
+          "ShipmentKey": "PICK2000020_SHPKEY",
+          "ShipmentNo": "PICK2000020SHPNO",
+          "Status": "Ready for Backroom Pick",
+          "BillToAddress": {
+            "DayPhone": "444666333",
+            "EMailID": "wpatterson@org.com",
+            "FirstName": "Will",
+            "LastName": "Patterson",
+            "PersonInfoKey": "22000020"
+          },
+          "ShipmentLines": {
+            "TotalNumberOfRecords": "4"
+          }
+        }
+      ]
+    }
+  }
+  

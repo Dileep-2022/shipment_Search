@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "shipment_Search": {
+    "practice-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/shipment-search",
+            "outputPath": "dist/practice-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -32,9 +32,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -69,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "shipment_Search:build:production"
+              "buildTarget": "practice-app:build:production"
             },
             "development": {
-              "buildTarget": "shipment_Search:build:development"
+              "buildTarget": "practice-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -96,6 +99,7 @@
               }
             ],
             "styles": [
+             
               "src/styles.scss"
             ],
             "scripts": []
